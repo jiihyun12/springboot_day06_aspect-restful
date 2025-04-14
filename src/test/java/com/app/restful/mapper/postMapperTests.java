@@ -20,7 +20,6 @@ public class postMapperTests {
 
     @Test
     public void selectByIdTest(){
-        log.info("{}", postMapper.selectById(2L));
     }
 
 }

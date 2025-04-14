@@ -16,7 +16,6 @@ public class MemberServiceImpl implements MemberService {
     private final MemberDAO memberDAO;
 
     @Override
-    public Optional<MemberVO> getMemberInfo(Long id) {
         return memberDAO.findById(id);
     }
 }

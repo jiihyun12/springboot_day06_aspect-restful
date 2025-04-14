@@ -3,7 +3,6 @@
 <mapper namespace="com.app.restful.mapper.MemberMapper">
 
     <select id="select" parameterType="Long" resultType="MemberVO">
-        SELECT ID, MEMBER_EMAIL, MEMBER_NAME
         FROM TBL_MEMBER
         WHERE ID = #{id}
     </select>

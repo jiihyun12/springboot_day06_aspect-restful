@@ -1,12 +1,10 @@
 package com.app.restful.mapper;
 
 import com.app.restful.domain.PostDTO;
-import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 import java.util.Optional;
 
-@Mapper
 public interface PostMapper {
 
 //    게시글 목록

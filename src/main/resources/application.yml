@@ -18,10 +18,6 @@ spring:
       username: hr
       password: 1234
   mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
-
-
 
 
 

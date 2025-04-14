@@ -16,7 +16,6 @@ public class memberMapperTests {
 
     @Test
     public void memberSelectTest(){
-        log.info("{}", memberService.getMemberInfo(1L));
     }
 
 
