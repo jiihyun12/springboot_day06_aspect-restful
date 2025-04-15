@@ -23,6 +23,4 @@ public class PostMapperTests {
     public void selectAllTest() {
         postMapper.selectAll();
     }
-
-
 }
