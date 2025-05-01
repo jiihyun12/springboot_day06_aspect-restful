@@ -10,12 +10,12 @@ import java.io.Serializable;
 @Data
 @Schema(description = "회원 정보")
 public class MemberVO implements Serializable {
-    @Schema(description = "회원 정보", required = true, example = "41")
+    @Schema(description = "회원 번호", required = true, example = "41")
     private Long id;
     @Schema(description = "회원 이메일", required = true, example = "test@app.com")
     private String memberEmail;
     @Schema(description = "회원 비밀번호", required = true, example = "비공개")
     private String memberPassword;
-    @Schema(description = "회원 이름", required = true, example = "홍길동")
+    @Schema(description = "회원 이름",  required = true, example = "홍길동")
     private String memberName;
 }

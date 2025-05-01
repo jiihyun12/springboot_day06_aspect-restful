@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 public class PostDTO {
-    Long id;
-    String postTitle;
-    String postContent;
-    Long memberId;
-    Long postReadContent;
-
+    private Long id;
+    private String postTitle;
+    private String postContent;
+    private Long memberId;
+    private Long postReadCount;
+    private String memberName;
 }

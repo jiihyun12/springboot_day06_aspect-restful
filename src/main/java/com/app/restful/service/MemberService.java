@@ -6,5 +6,15 @@ import java.util.Optional;
 
 public interface MemberService {
 
-    public Optional<MemberVO> getMemberInfo(Long id);
+//    회원정보 조회
+    public Optional<MemberVO> login(Long id);
+
+//    회원가입
+    public void join(MemberVO memberVO);
+
+//    회원정보수정
+    public void modify(MemberVO memberVO);
+
+//    회원탈퇴
+    public void withdraw(Long id);
 }
