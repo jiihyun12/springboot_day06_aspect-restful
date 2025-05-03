@@ -17,10 +17,23 @@ spring:
       jdbc-url: jdbc:oracle:thin:@//localhost:1521/XE
       username: hr
       password: 1234
-
+  ssl:
+    enabled: true
   mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
+    cors:
+      mappings:
+        "/**":
+          allowed-origins: "http://localhost:3000"
+          allowed-methods: "*"
+          allowed-headers: "*"
+          allow-credentials: true
+
+api:
+  base-url: "https://apis.data.go.kr/B551011/KorPetTourService"
+  base-url2: "https://api.odcloud.kr/api"
+  congestion-20171231 : "/15071311/v1/uddi:a5158b81-27c7-4151-ba6c-b912a6f13d39"
+  area-based-list: "/areaBasedList"
+  service-key: "b6HpAW2Joc2DKJITsKTv7qB%2B5j9PEkFpYfs9Gs5BiAdLAZIthioihwY9bxao3S6O8qsXdX5WwVPH%2BOZ%2BVHuhBw%3D%3D"
 
 
 thymeleaf:
@@ -30,5 +43,3 @@ thymeleaf:
   cache: false
   mvc:
     static-path-pattern: "/static/**"
-
-
