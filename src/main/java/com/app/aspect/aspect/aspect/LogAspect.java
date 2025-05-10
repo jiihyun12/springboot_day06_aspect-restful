@@ -1,9 +1,9 @@
-//package com.app.aspect.aspect.sepect;
+//package com.app.aspect.aspect.aspect;
 //
 //import lombok.extern.slf4j.Slf4j;
-//import org.aspectj.lang.JoinPoint;
-//import org.aspectj.lang.ProceedingJoinPoint;
-//import org.aspectj.lang.annotation.*;
+//import org.aspect.lang.JoinPoint;
+//import org.aspect.lang.ProceedingJoinPoint;
+//import org.aspect.lang.annotation.*;
 //import org.springframework.context.annotation.Configuration;
 //
 //import java.util.Arrays;
